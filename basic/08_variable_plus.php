@@ -23,4 +23,17 @@ print "<br>";
 settype($temp,"integer");
 print "값 : ".$temp." 타입 : ".gettype($temp);
 print "<br>";
+
+//empty
+//1.값이 빈 문자열
+//2.값이 Null
+//3.값이 빈 배열
+//4.값이 정수 0
+//5.값이 문자열 0
+print "빈 문자열 : ".empty("")."<br>";
+print "NULL : ".empty(NULL)."<br>";
+print "빈 배열 : ".empty([])."<br>";
+print "정수 0 : ".empty(0)."<br>";
+print "문자열 0 : ".empty("0")."<br>";
+
 ?>
